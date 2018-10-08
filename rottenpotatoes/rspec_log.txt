@@ -1,0 +1,25 @@
+
+MoviesController
+  index page should render
+    should render successfully
+    should render the index view
+  GET new
+    should render successfully
+    should render the new view
+  GET show
+    should render successfully
+    should render the show view
+    should display the right movie
+  POST create
+    creates a new movie
+
+MoviesHelper
+  oddness works
+    should find 5 is odd
+
+1 deprecation warning total
+
+Finished in 0.04786 seconds (files took 1.59 seconds to load)
+9 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 45 / 54 LOC (83.33%) covered.
